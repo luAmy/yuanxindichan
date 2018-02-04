@@ -1,0 +1,27 @@
+/* component/filter/filter.wxss */
+.filter-wrap {
+  display: flex;
+  padding: 0 30rpx;
+  margin-bottom: 40rpx;
+}
+.filter-item {
+  /* display: flex;
+  justify-content: center; */
+  width: 172.5rpx;
+  font-size: 26rpx;
+}
+.filter-item.selected text {
+  color: #ff5515;
+}
+.filter-item-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-trangle {
+  width: 0;
+  height: 0;
+  margin: 10rpx 0 0 20rpx;
+  border: 8rpx solid transparent;
+  border-top: 8rpx solid #000;
+}

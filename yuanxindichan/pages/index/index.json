@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "远信地产·住宅楼",
+  "usingComponents": {
+    "copyright": "/component/copyright/copyright"
+  }
+}

@@ -1,0 +1,5 @@
+<!--component/copyright/copyright.wxml-->
+<view class='bottom'>
+  <text>copyright©2018 远信地产 版权所有</text>
+  <text>北京中程高科网络技术有限公司 提供技术支持</text>
+</view>

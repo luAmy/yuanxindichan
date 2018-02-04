@@ -1,0 +1,28 @@
+/* component/searchInput/searchInput.wxss */
+.search-wrap {
+  position: relative;
+  margin: 40rpx 0;
+  padding: 0 30rpx;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  box-sizing: border-box;
+  width: 610rpx;
+  height: 60rpx;
+  font-size: 26rpx;
+  padding-left: 70rpx;
+  border: 1px solid #cccccc;
+  border-radius: 30rpx;
+}
+.search-icon {
+  position: absolute;
+  width: 26rpx;
+  height: 26rpx;
+  left: 60rpx;
+  top: 18rpx;
+}
+.search-btn {
+  margin-left: 20rpx;
+  font-size: 26rpx;
+}

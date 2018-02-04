@@ -1,0 +1,4 @@
+<!--pages/new/new.wxml-->
+<searchInput bind:search="onSearch"></searchInput> 
+<filter></filter>
+<copyright></copyright>

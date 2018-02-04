@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/new/new",
+    "pages/index/index",
+    
+    "pages/my/my",
+    "pages/search/search",
+    "component/copyright/copyright",
+    "component/searchInput/searchInput",
+    "component/filter/filter",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "远信地产",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "#eee",
+    "selectedColor": "#ff5515",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "imgs/home.jpg",
+        "selectedIconPath": "imgs/home-act.jpg"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "最新",
+        "iconPath": "imgs/new.jpg",
+        "selectedIconPath": "imgs/new-act.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "imgs/my.jpg",
+        "selectedIconPath": "imgs/my-act.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+/* component/copyright/copyright.wxss */
+.bottom {
+  margin: 50rpx 0;
+  color: #cacaca;
+  font-size: 20rpx;
+  text-align: center;
+}
+.bottom text {
+  display: block;
+}

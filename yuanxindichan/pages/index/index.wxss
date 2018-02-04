@@ -1,0 +1,77 @@
+/**index.wxss**/
+.search {
+  position: absolute;
+  top: 80rpx;
+  left: 30rpx;
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: rgba(0, 0, 0, .6);
+  border-radius: 50%;
+  text-align: center;
+}
+.search image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.map-index {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 130rpx;
+  font-size: 26rpx;
+}
+.map-index .map-icon {
+  width: 22rpx;
+  height: 29rpx;
+  margin-right: 20rpx;
+}
+.map-index text {
+  flex: auto;
+}
+.map-index .arrow-icon {
+  width: 15rpx;
+  height: 25rpx;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  flex-wrap: wrap;
+}
+.card {
+  width: 330rpx;
+  height: 290rpx;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+  font-size: 26rpx;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 3px;
+}
+.card image{
+  width: 290rpx;
+  height: 180rpx;
+  border-radius: 3px;
+}
+.card .info {
+  display: flex;
+  align-items: center;
+  margin-top: 15rpx;
+}
+.card .info .xiaoquname {
+  flex: auto;
+}
+.card .info .tag {
+  box-sizing: border-box;
+  padding: 5rpx 10rpx;
+  font-size: 20rpx;
+  border-radius: 3px;
+}
+.card .info .tag.home {
+  color: #ff5515;
+  border: 1px solid #ff5515;
+}
+.card .info .tag.office {
+  color: #008aff;
+  border: 1px solid #008aff;
+}

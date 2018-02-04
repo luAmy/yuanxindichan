@@ -1,0 +1,13 @@
+<!--component/filter/filter.wxml-->
+<view class='filter-wrap'>
+  <view class='filter-item {{index === selectedIndex ? "selected" : ""}}' wx:for='{{menus}}' wx:for-index='index' bindtap='openFilter' data-index='{{index}}'>
+    <view class='filter-item-wrap'>
+      <text>{{item.name}}</text>
+      <view class='filter-trangle'></view> 
+    </view>
+    <view wx:if="{{index === 0}}">
+      <scroll-view scroll-y >
+      </scroll-view>
+    </view>
+  </view>
+</view>

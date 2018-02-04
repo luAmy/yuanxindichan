@@ -1,0 +1,28 @@
+<!--pages/new/new.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="rgba(220, 167, 18, .5)" indicator-active-color="#dca712"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="position:relative;">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item >
+      <image src="{{item}}" class="slide-image" mode="scaleToFill"  style="width: 750rpx; height: 400rpx;"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="search" bindtap="gotoSearch">
+  <image src='../../imgs/search-white.png'></image>
+</view>
+<view class="map-index">
+  <image class="map-icon" src="../../imgs/map.jpg"></image>
+  <text>{{addr}}</text>
+  <image class="arrow-icon" src="../../imgs/arrow-right.jpg"></image>
+</view>
+<view class='cards'>
+  <view class="card" wx:for="{{houseArr}}">
+    <image src="{{item.pic}}"></image>
+    <view class="info">
+      <text class='xiaoquname'>{{item.xiaoquName}}</text>
+      <view class="tag home" wx:if="{{home}}">住宅</view>
+      <view class="tag office" wx:if="{{!home}}">写字楼</view>
+    </view>
+  </view>
+</view>
+<copyright></copyright>

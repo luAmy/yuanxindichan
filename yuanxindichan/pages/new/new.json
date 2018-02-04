@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "最新",
+  "usingComponents": {
+    "copyright": "/component/copyright/copyright",
+    "searchInput": "/component/searchInput/searchInput",
+    "filter": "/component/filter/filter"
+  }
+}

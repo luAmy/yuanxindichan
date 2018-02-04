@@ -1,0 +1,6 @@
+<!--component/searchInput/searchInput.wxml-->
+<view class="search-wrap">
+  <input class="search-input" placeholder="搜索地点名，小区名" confirm-type="search" placeholder-style="color: #999;" bindconfirm="search" value="{{keyword}}" bindinput="getKeyword"></input>
+  <image class="search-icon" src="../../imgs/search.png"></image>
+  <text class="search-btn" bindtap="search">搜索</text>
+</view>
